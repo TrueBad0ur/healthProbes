@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: health-probe
-          image: heathland/health-probes:latest
+          image: truebad0ur/healthprobes:v1
 
           ports:
             - containerPort: 8080
